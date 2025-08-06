@@ -27,3 +27,20 @@ This project compares the performance of six machine learning regression models:
 | MLP Regressor (Neural Net)       | 0.27  | 0.33  | 0.9926   |
 | SVR (Support Vector Regressor)   | 0.36  | 0.72  | 0.9649   |
 | Linear Regression                | 0.23  | 0.28  | 0.0253   |
+
+Conclusion:
+The ensemble models (Random Forest and XGBoost) performed exceptionally well, offering minimal error and near-perfect prediction accuracy — ideal for solar forecasting tasks.
+
+
+ Tools & Technologies
+
+Google Colab (for modeling and visualizations)
+
+Python (Pandas, Numpy, Scikit-learn, XGBoost, Seaborn, Matplotlib)
+
+NASA POWER API (for solar radiation and weather parameters)
+
+GitHub (for version control and collaboration)
+
+Jupyter Notebooks (.ipynb format for each model)
+
