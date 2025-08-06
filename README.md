@@ -1,0 +1,2 @@
+Solar Energy Forecasting and Dashboard Monitoring Using Machine Learning
+Welcome to this applied machine learning project focused on solar energy forecasting using real-world environmental data. This project explores and compares several powerful regression models for predicting daily solar radiation and is tailored for global applicability — especially beneficial for energy professionals, researchers, and clean energy enthusiasts.
