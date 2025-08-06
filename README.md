@@ -16,6 +16,7 @@ The goal of this project is to develop a reliable machine learning pipeline that
 - Integrating renewables into smart grids
 
 Dataset / Data Source
+
 📂 File Name
 nasa_power_data_all_params.csv (located in the `data/` directory)
 
@@ -36,6 +37,7 @@ This cleaned dataset contains daily environmental and solar parameters retrieved
 | `WS2M`               | Wind speed at 2 m                                          |
 
  Geographic & Temporal Scope
+ 
 - Location: Latitude 6.5244, Longitude 3.3792 (Lagos, Nigeria)
 - Time period: January 1 – December 31, 2024
 - Temporal resolution: Daily
@@ -103,13 +105,12 @@ Interactive visual dashboards and charts will be added in future iterations for 
 
  How to Run the Project
 
-1. Clone the repo
-   git clone https://github.com/adebowale-aienergy/solar_energy_forecasting_and_dashboard_monitoring
+1. Clone the repo git clone
+    https://github.com/adebowale-aienergy/solar_energy_forecasting_and_dashboard_monitoring
 
-2. Open any of the .ipynb files using Google Colab or Jupyter Notebook.
+3. Open any of the .ipynb files using Google Colab or Jupyter Notebook.
 
-
-3. Follow through each notebook to:
+4. Follow through each notebook to:
 
 - Load the dataset
 
@@ -122,6 +123,7 @@ Interactive visual dashboards and charts will be added in future iterations for 
 Adebowale Immanuel Adeyemi
 
 Electrical Engineer | Solar Energy Specialist | Machine Learning Enthusiast
+
 (https://www.linkedin.com/in/adebowale-immanuel-adeyemi-4705026a/)
 
  License
