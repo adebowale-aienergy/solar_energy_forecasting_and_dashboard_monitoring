@@ -1,6 +1,6 @@
 Solar Energy Forecasting and Dashboard Monitoring Using Machine Learning
 
-Welcome to this applied machine learning project focused on solar energy forecasting using real-world environmental data. 
+Welcome to this applied machine learning project focused on solar energy forecasting using real world environmental data. 
 This project explores and compares several powerful regression models for predicting daily solar radiation and is tailored for global applicability,especially beneficial for energy professionals, researchers, and clean energy enthusiasts.
 
 Project Objective
@@ -14,6 +14,32 @@ The goal of this project is to develop a reliable machine learning pipeline that
 - Energy policy planning
 
 - Integrating renewables into smart grids
+
+Dataset / Data Source
+📂 File Name
+nasa_power_data_all_params.csv (located in the `data/` directory)
+
+ Description
+This cleaned dataset contains daily environmental and solar parameters retrieved from NASA POWER API for the year 2024. It includes:
+
+| Column              | Description                                               |
+|----------------------|------------------------------------------------------------|
+| `ALLSKY_SFC_SW_DWN`  | All-sky surface shortwave downward solar radiation (kWh/m²) — **target variable** |
+| `CLRSKY_SFC_SW_DWN`  | Clear-sky equivalent solar radiation                      |
+| `ALLSKY_SFC_SW_DNI`  | Direct normal irradiance                                   |
+| `ALLSKY_SFC_SW_DIFF` | Diffuse solar radiation component                          |
+| `SUNSHINE`           | Sunshine duration (hours)                                  |
+| `CLOUD_AMT`          | Cloud cover percentage                                     |
+| `AOD_550`            | Aerosol Optical Depth at 550 nm                            |
+| `T2M`                | Temperature at 2 m                                         |
+| `RH2M`               | Relative humidity at 2 m                                   |
+| `WS2M`               | Wind speed at 2 m                                          |
+
+ Geographic & Temporal Scope
+- Location: Latitude 6.5244, Longitude 3.3792 (Lagos, Nigeria)
+- Time period: January 1 – December 31, 2024
+- Temporal resolution: Daily
+
 Global Scope
 
 Though the initial environmental data was modeled around Lagos, Nigeria, the methodology, tools, and models can be easily adapted to any region worldwide using similar datasets such as those from NASA POWER or local weather stations
@@ -49,22 +75,21 @@ The ensemble models (Random Forest and XGBoost) performed exceptionally well, of
 
   📁 Project Structure
   
-  solar_energy_forecasting_and_dashboard_monitoring/
+solar_energy_forecasting_and_dashboard_monitoring/
 │
 ├── notebooks/
+│   ├── MLP_Regressor.ipynb
+│   ├── Standard Vector Regressor.ipynb
+│   ├── solar_energy_forecasting_XGBoost_regression.ipynb
 │   ├── solar_energy_forecasting_linear_regression.ipynb
 │   ├── solar_energy_forecasting_polynomial_regression.ipynb
-│   ├── solar_energy_forecasting_random_forest_regression.ipynb
-│   ├── solar_energy_forecasting_XGBoost_regression.ipynb
-│   ├── Standard Vector Regressor.ipynb
-│   └── MLP_Regressor.ipynb
+│   └── solar_energy_forecasting_random_forest_regression.ipynb
 │
 ├── data/
 │   └── nasa_power_data_all_params.csv
 │
 ├── README.md
 └── LICENSE
-
 
 Visualization & Dashboard (Coming Soon)
 
