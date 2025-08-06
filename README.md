@@ -92,13 +92,14 @@ Interactive visual dashboards and charts will be added in future iterations for 
 
 - Evaluate and visualize results
 
-Author
+ Author
 
 Adebowale Immanuel Adeyemi
+
 Electrical Engineer | Solar Energy Specialist | Machine Learning Enthusiast
 🔗 LinkedIn
 
-License
+ License
 
 This project is licensed under the MIT License , feel free to use and build upon it for educational or commercial use with attribution.
 
