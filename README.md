@@ -1,5 +1,8 @@
 Solar Energy Forecasting and Dashboard Monitoring Using Machine Learning
-Welcome to this applied machine learning project focused on solar energy forecasting using real-world environmental data. This project explores and compares several powerful regression models for predicting daily solar radiation and is tailored for global applicability,especially beneficial for energy professionals, researchers, and clean energy enthusiasts.
+
+Welcome to this applied machine learning project focused on solar energy forecasting using real-world environmental data. 
+This project explores and compares several powerful regression models for predicting daily solar radiation and is tailored for global applicability,especially beneficial for energy professionals, researchers, and clean energy enthusiasts.
+
 Project Objective
 
 The goal of this project is to develop a reliable machine learning pipeline that can accurately predict daily solar radiation (kWh/m²) based on multiple meteorological parameters (e.g., temperature, humidity, solar angles, wind speed, etc.). Accurate solar forecasting is crucial for:
@@ -15,7 +18,7 @@ Global Scope
 
 Though the initial environmental data was modeled around Lagos, Nigeria, the methodology, tools, and models can be easily adapted to any region worldwide using similar datasets such as those from NASA POWER or local weather stations
 
-.📊 Machine Learning Models Used
+ Machine Learning Models Used
 
 This project compares the performance of six machine learning regression models:
 
@@ -45,6 +48,7 @@ The ensemble models (Random Forest and XGBoost) performed exceptionally well, of
 - Jupyter Notebooks (.ipynb format for each model)
 
   📁 Project Structure
+  
   solar_energy_forecasting_and_dashboard_monitoring/
 │
 ├── notebooks/
@@ -71,3 +75,34 @@ Interactive visual dashboards and charts will be added in future iterations for 
 - Forecast trend plots
 
 - Regional performance comparisons
+
+ How to Run the Project
+
+1. Clone the repo
+   git clone https://github.com/adebowale-aienergy/solar_energy_forecasting_and_dashboard_monitoring
+
+2. Open any of the .ipynb files using Google Colab or Jupyter Notebook.
+
+
+3. Follow through each notebook to:
+
+Load the dataset
+
+Train models
+
+Evaluate and visualize results
+
+Author
+
+Adebowale Immanuel Adeyemi
+Electrical Engineer | Solar Energy Specialist | Machine Learning Enthusiast
+🔗 LinkedIn
+
+License
+
+This project is licensed under the MIT License , feel free to use and build upon it for educational or commercial use with attribution.
+
+
+
+
+
