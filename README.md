@@ -22,6 +22,7 @@ Dataset / Data Source
 nasa_power_data_all_params.csv (located in the `data/` directory)
 
  Description
+ 
 This cleaned dataset contains daily environmental and solar parameters retrieved from NASA POWER API for the year 2024. It includes:
 
 | Column              | Description                                               |
