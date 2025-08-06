@@ -74,7 +74,7 @@ The ensemble models (Random Forest and XGBoost) performed exceptionally well, of
 - Jupyter Notebooks (.ipynb format for each model)
 
   📁 Project Structure
-  
+ ```text
 solar_energy_forecasting_and_dashboard_monitoring/
 │
 ├── notebooks/
@@ -90,7 +90,7 @@ solar_energy_forecasting_and_dashboard_monitoring/
 │
 ├── README.md
 └── LICENSE
-
+```
 Visualization & Dashboard (Coming Soon)
 
 Interactive visual dashboards and charts will be added in future iterations for better insight and stakeholder presentations. These will include:
