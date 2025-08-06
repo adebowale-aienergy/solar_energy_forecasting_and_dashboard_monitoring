@@ -44,11 +44,11 @@ The ensemble models (Random Forest and XGBoost) performed exceptionally well, of
 
 - Jupyter Notebooks (.ipynb format for each model)
 
-  📁 Project Structure
-  
+  📁 Project Structure 
+
 solar_energy_forecasting_and_dashboard_monitoring/
 │
-├── 📂 notebooks/
+├── notebooks/
 │   ├── solar_energy_forecasting_linear_regression.ipynb
 │   ├── solar_energy_forecasting_polynomial_regression.ipynb
 │   ├── solar_energy_forecasting_random_forest_regression.ipynb
@@ -56,12 +56,11 @@ solar_energy_forecasting_and_dashboard_monitoring/
 │   ├── Standard Vector Regressor.ipynb
 │   └── MLP_Regressor.ipynb
 │
-├── 📁 data/
-│   └── solar_data_cleaned.csv (NASA-powered sample dataset)
+├── data/
+│   └── solar_data_cleaned.csv  # NASA POWER sample dataset
 │
-├── 📄 README.md
-└── 📄 LICENSE
-
+├── README.md
+└── LICENSE
 Visualization & Dashboard (Coming Soon)
 
 Interactive visual dashboards and charts will be added in future iterations for better insight and stakeholder presentations. These will include:
