@@ -18,6 +18,7 @@ The goal of this project is to develop a reliable machine learning pipeline that
 Dataset / Data Source
 
 📂 File Name
+
 nasa_power_data_all_params.csv (located in the `data/` directory)
 
  Description
