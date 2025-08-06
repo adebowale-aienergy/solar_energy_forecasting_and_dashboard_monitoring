@@ -60,7 +60,7 @@ The ensemble models (Random Forest and XGBoost) performed exceptionally well, of
 │   └── MLP_Regressor.ipynb
 │
 ├── data/
-│   └── solar_data_cleaned.csv  # NASA POWER sample dataset
+│   └── nasa_power_data_all_params.csv
 │
 ├── README.md
 └── LICENSE
