@@ -86,11 +86,11 @@ Interactive visual dashboards and charts will be added in future iterations for 
 
 3. Follow through each notebook to:
 
-Load the dataset
+- Load the dataset
 
-Train models
+- Train models
 
-Evaluate and visualize results
+- Evaluate and visualize results
 
 Author
 
