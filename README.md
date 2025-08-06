@@ -34,13 +34,40 @@ The ensemble models (Random Forest and XGBoost) performed exceptionally well, of
 
  Tools & Technologies
 
-Google Colab (for modeling and visualizations)
+- Google Colab (for modeling and visualizations)
 
-Python (Pandas, Numpy, Scikit-learn, XGBoost, Seaborn, Matplotlib)
+- Python (Pandas, Numpy, Scikit-learn, XGBoost, Seaborn, Matplotlib)
 
-NASA POWER API (for solar radiation and weather parameters)
+- NASA POWER API (for solar radiation and weather parameters)
 
-GitHub (for version control and collaboration)
+- GitHub (for version control and collaboration)
 
-Jupyter Notebooks (.ipynb format for each model)
+- Jupyter Notebooks (.ipynb format for each model)
 
+  📁 Project Structure
+  
+solar_energy_forecasting_and_dashboard_monitoring/
+│
+├── 📂 notebooks/
+│   ├── solar_energy_forecasting_linear_regression.ipynb
+│   ├── solar_energy_forecasting_polynomial_regression.ipynb
+│   ├── solar_energy_forecasting_random_forest_regression.ipynb
+│   ├── solar_energy_forecasting_XGBoost_regression.ipynb
+│   ├── Standard Vector Regressor.ipynb
+│   └── MLP_Regressor.ipynb
+│
+├── 📁 data/
+│   └── solar_data_cleaned.csv (NASA-powered sample dataset)
+│
+├── 📄 README.md
+└── 📄 LICENSE
+
+Visualization & Dashboard (Coming Soon)
+
+Interactive visual dashboards and charts will be added in future iterations for better insight and stakeholder presentations. These will include:
+
+- Real-time solar intensity visualization
+
+- Forecast trend plots
+
+- Regional performance comparisons
