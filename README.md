@@ -15,15 +15,15 @@ Global Scope
 
 Though the initial environmental data was modeled around Lagos, Nigeria, the methodology, tools, and models can be easily adapted to any region worldwide using similar datasets such as those from NASA POWER or local weather stations
 
-.Machine Learning Models Used
+.📊 Machine Learning Models Used
 
 This project compares the performance of six machine learning regression models:
 
-Model	MAE	RMSE	R² Score
-
-Random Forest Regressor	0.12	0.14	0.9987
-Polynomial Regression (D=2)	0.12	0.15	0.9985
-XGBoost Regressor	0.12	0.17	0.9980
-MLP Regressor (Neural Net)	0.27	0.33	0.9926
-SVR (Support Vector Regressor)	0.36	0.72	0.9649
-Linear Regression	0.23	0.28	0.0253
+| Model                            | MAE   | RMSE  | R² Score |
+|----------------------------------|-------|-------|----------|
+| Random Forest Regressor          | 0.12  | 0.14  | 0.9987   |
+| Polynomial Regression (Degree 2) | 0.12  | 0.15  | 0.9985   |
+| XGBoost Regressor                | 0.12  | 0.17  | 0.9980   |
+| MLP Regressor (Neural Net)       | 0.27  | 0.33  | 0.9926   |
+| SVR (Support Vector Regressor)   | 0.36  | 0.72  | 0.9649   |
+| Linear Regression                | 0.23  | 0.28  | 0.0253   |
