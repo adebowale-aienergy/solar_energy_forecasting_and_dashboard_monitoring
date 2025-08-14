@@ -63,9 +63,7 @@ This project compares the performance of six machine learning regression models:
 
 Conclusion:
 The ensemble models (Random Forest,Polynomial and XGBoost) performed exceptionally well, offering minimal error and near-perfect prediction accuracy, ideal for solar forecasting tasks.
-<img width="2370" height="1765" alt="rf_actual_vs_predicted" src="https://github.com/user-attachments/assets/797a679f-d1c2-49c9-a52f-a3b951d27902" />
-
-
+<img src="images/rf_actual_vs_predicted.png" alt="Random Forest Forecast" width="1185" height="883">
 
  Tools & Technologies
 
