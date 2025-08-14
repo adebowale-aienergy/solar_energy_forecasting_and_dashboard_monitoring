@@ -1,6 +1,6 @@
 Solar Energy Forecasting and Dashboard Monitoring 
 
-Welcome to this applied machine learning project focused on solar energy forecasting using real world environmental data. 
+[Welcome to this applied machine learning project focused on solar energy forecasting using real world environmental data. 
 This project explores and compares several powerful regression models for predicting daily solar radiation and is tailored for global applicability,especially beneficial for energy professionals, researchers, and clean energy enthusiasts.
 
 Project Objective
@@ -63,6 +63,8 @@ This project compares the performance of six machine learning regression models:
 
 Conclusion:
 The ensemble models (Random Forest,Polynomial and XGBoost) performed exceptionally well, offering minimal error and near-perfect prediction accuracy, ideal for solar forecasting tasks.
+<img width="2370" height="1765" alt="rf_actual_vs_predicted" src="https://github.com/user-attachments/assets/797a679f-d1c2-49c9-a52f-a3b951d27902" />
+
 
 
  Tools & Technologies
@@ -119,7 +121,7 @@ Interactive visual dashboards and charts will be added in future iterations for 
 - Train models
 
 - Evaluate and visualize results
-
+](https://github.com/adebowale-aienergy/solar_energy_forecasting_and_dashboard_monitoring)
  Author
 
 Adebowale Immanuel Adeyemi
