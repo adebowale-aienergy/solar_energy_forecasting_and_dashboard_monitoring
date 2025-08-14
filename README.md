@@ -63,7 +63,8 @@ This project compares the performance of six machine learning regression models:
 
 Conclusion:
 The ensemble models (Random Forest,Polynomial and XGBoost) performed exceptionally well, offering minimal error and near-perfect prediction accuracy, ideal for solar forecasting tasks.
-<img width="400" height="300" alt="poly_actual_vs_predicted" src="https://github.com/user-attachments/assets/f0e34863-8eb1-415e-8557-eb009c097282" />
+<img width="300" height="224" alt="poly_actual_vs_predicted" src="https://github.com/user-attachments/assets/1fc7b2e2-b76e-4572-a239-b5a54c9dc804" />
+
  Tools & Technologies
 
 - Google Colab (for modeling and visualizations)
